@@ -1,0 +1,25 @@
+html, 
+header{
+	margin-bottom: 3rem;
+} 
+p{
+	line-height: 1.6;
+}
+.see-all{
+	text-transform: uppercase; 
+	font-size: 0.8em;
+}
+h1{
+	font-size: 2.5rem;
+	font-weight: lighter;
+}
+h2{
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+.cast{
+	width: 100%;
+	}
+
+}
