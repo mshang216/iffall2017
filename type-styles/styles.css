@@ -1,0 +1,58 @@
+html,
+body{
+	background-color: mintcream;
+	font-family: 'Crimson Text', serif;
+}
+.section {
+/*	padding: 24px; */
+	margin: auto;
+}
+
+h2{
+	font-family: 'Arial', sans-serif;
+	font-size: 24px;
+	color: grey;
+}
+
+h3{
+	font-family: 'Arial', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+/*.topic{
+	padding: 36px;
+	font-family: 'Arial', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: grey;*/
+}
+
+/* .code {
+	font-family: 'Arial', sans-serif;
+	font-size: 10px;
+	color: grey;
+	padding-top: 4px; 
+} */
+
+.normal{
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: normal;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.em1 {
+	letter-spacing: .3em;
+}
+
+.em2 {
+	letter-spacing: .06em;
+}
