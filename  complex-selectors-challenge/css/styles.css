@@ -18,8 +18,41 @@ h2{
 	text-transform: uppercase;
 	font-weight: lighter;
 }
-.cast{
+
+.cast img{
 	width: 100%;
-	}
+	border: 1px;
+	border-style: solid;
+	border-color: green;
+}
+
+.cast li{
+	width: 25%;
+	font-size: 0.8rem;
 
 }
+
+li.selected a{
+	/* 'li' in front of 'selected' means specifically naming list called 'selected' */
+font-weight: bold;
+color: black;
+}
+
+a :last-child{
+	font-size: 0.8rem;
+	font-style: italic;
+}
+img + div{
+	font-weight: bold;
+}
+
+#game-of-thrones ul :last-child::after{
+	content: "*"
+}
+
+#game-of-thrones .seasons::after{
+	content:"* in production";
+	color: #999;
+	font-size: 0.7rem;
+}
+
