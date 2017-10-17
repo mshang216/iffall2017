@@ -1,0 +1,11 @@
+body {
+	background-color: RosyBrown;
+	text-align: center;
+}
+
+section{
+	background-image: url("../images/walrus_vinyl.jpg");
+	background-size: 40rem;
+}
+
+
