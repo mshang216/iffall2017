@@ -1,0 +1,33 @@
+body {
+	background-color: GoldenRod; 
+	text-align: center;
+}
+
+h1{
+	font-family: 'Sigmar One', cursive;
+	font-size: 36px;
+	margin-bottom: 0px;
+}
+h2{
+	font-family: 'Caveat Brush', cursive;
+	font-size: 24px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	/* color: #291b4c; */
+}
+h3 {
+	font-family: 'Caveat Brush', cursive;
+	font-size: 20px;
+	/* color: #bc4720; */
+}
+
+.verse {
+	font-family: 'Comfortaa', cursive;
+	font-size: 12px;
+	/* color: #8e5019; */
+}
+.chorus {
+	font-size: 16px;
+	font-family: 'Caveat Brush', cursive;
+	/* color: #bc4720; */
+}
