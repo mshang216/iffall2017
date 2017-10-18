@@ -1,0 +1,235 @@
+body{
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 80px;
+
+}
+
+h2{ 
+	font-size: 40px;
+	text-align: center;
+	margin-top: 1px;
+}
+
+h3{
+	margin-top: 2px;
+	/* parent will take white space and collapse on self */
+	font-size: 30px;
+}
+
+h4{
+	margin-top: 0px;
+	margin-bottom:0px;
+	font-size: 20px;
+}
+	/* margin is invisible; cannot style margin, only padding*/
+
+section{
+	/*text-align: center;*/
+	padding-top: 40px;
+	clear:both;
+	/*clear: left/right means you don't want anything on left/right of content;*/
+}
+
+.container{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	/*padding top: 200px;*/
+	/*padding-left: 160px;
+	padding-right: 160px;*/
+	padding-bottom: 50px;
+}
+
+#intro{
+	padding-top: 155px;
+	padding-bottom: 200px;
+	text-align: center;
+	background-image: url(http://i.imgur.com/nNF7aLD.gif);
+	background-position: center-top;
+	height: 125px;
+}
+
+#text p{
+	margin-top: 0px;
+	font-size: 17px;
+	line-height: 21.35px;
+	letter-spacing: 0.375px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+#text{
+	background-color: LightSalmon;
+	height: 605px;
+}
+
+#text img{
+	float:right;
+	border: 1px solid purple;
+	margin-left: 35px;
+	margin-bottom: 20px;
+}
+
+.column-left{
+	float:left;
+	width:50%;
+	/* if do not set width at 50% then only one column */
+}
+
+.blurb {
+	padding-top: 1px;
+	clear: both;
+	height: 150px;
+	letter-spacing: 0.4px;
+}
+.blurb p{
+	margin-top: 8px;
+	padding-right: 40px;
+	line-height: 21px;
+	letter-spacing: 0.28px;
+}
+.blurb img{
+	float: left;
+	border: 0.75px solid green;
+	margin-right:13px;
+}
+
+.blurb-two{
+	padding-top: 24px;
+	clear: both;
+	height: 150px;
+	letter-spacing: 0.35px;
+}
+.blurb-two p{
+	margin-top: 7px;
+	padding-right: 40px;
+	line-height: 21px;
+	letter-spacing: 0.28px;
+}
+.blurb-two img{
+	float: left;
+	border: 0.75px solid green;
+	margin-right: 13px;
+}
+
+.blurb-three{
+	padding-top: 22px;
+	clear: both;
+	height: 150px;
+	letter-spacing: 0.4px;
+}
+.blurb-three p{
+	margin-top: 7px;
+	padding-right: 40px;
+	line-height: 21px;
+	letter-spacing: 0.28px;
+}
+.blurb-three img{
+	float: left;
+	border: 0.75px solid green;
+	margin-right: 12px;
+}
+
+.column-right{
+	float:right;
+	width: 50%;
+}
+
+.blurb-four{
+	padding-top: 1px;
+	clear:both;
+	height:150px;
+	letter-spacing: 0.4px;
+}
+.blurb-four p{
+	margin-top: 7px;
+	padding-right: 40px;
+	line-height: 21px;
+	letter-spacing: 0.28px;
+}
+.blurb-four img{
+	float: left;
+	border:0.75px solid green;
+	margin-right: 12px;
+}
+
+.blurb-five{
+	padding-top: 24px;
+	clear:both;
+	height:150px;
+	letter-spacing: 0.35px;
+}
+.blurb-five p{
+	margin-top: 7px;
+	padding-right: 40px;
+	line-height: 21px;
+	letter-spacing: 0.28px;
+}
+.blurb-five img{
+	float: left;
+	border:0.75px solid green;
+	margin-right: 12px;
+}
+
+.blurb-six{
+	padding-top: 22px;
+	clear:both;
+	height:150px;
+	letter-spacing: 0.4px;
+}
+.blurb-six p{
+	margin-top: 7px;
+	padding-right: 40px;
+	line-height: 21px;
+	letter-spacing: 0.28px;
+}
+.blurb-six img{
+	float: left;
+	border:0.75px solid green;
+	margin-right: 12px;
+}
+
+#pictures{
+	height: 680px;
+	background-color: OldLace;
+	height: 640px;
+}
+
+#pictures p{
+	font-size: 17px;
+}
+
+#outro p{
+	text-align: center;
+	font-size: 28px;
+	padding-left: 270px;
+	padding-right: 270px;
+	line-height: 30.5px;
+	letter-spacing: -0.35px;
+	margin-bottom: 80px;
+}
+#outro{
+	background-color: DarkSeaGreen;
+	height: 372px;
+}
+
+#footer{
+	background-image: url(https://media.giphy.com/media/jmBtaJ2B8xGTK/giphy-downsized-large.gif);
+	padding-bottom: 20px;
+}
+#footer p{
+	font-size: 18px;
+	margin-top: 0px;
+	color: white;
+}
+
+.social-icons{
+	text-align: right;
+	font-size: 30px;
+	color: white;
+}
