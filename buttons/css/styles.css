@@ -135,7 +135,12 @@ a#btn_apple {
 
 a#btn_apple:hover {
 	color: white;
-	background-color: gray;
+	/*background-color: gray;*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(173,97,97,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 }
 
 a#btn_coke {
@@ -159,4 +164,109 @@ a#btn_coke:hover {
 	background-color: #fff;
 	border: 1px solid red;
 	color: red;
+}
+
+a#btn_youtube {
+	display: inline-block;
+	margin: auto;
+	margin-top: 80px;
+	padding: 10px 15px 20px 15px;
+	height: 60px;
+	width: 60px;
+	-moz-transition-timing-function: ease;
+	-webkit-transition-timing-function: ease;
+	transition: width 2s;
+	text-align: center;
+	text-decoration: none;
+	font-size: 50px;
+	background-color: white;
+	border: 1px solid gray;
+	color: black;
+}
+
+a#btn_youtube:hover {
+	 width: 120px;
+	 color: red;
+}
+
+a#btn_bissingers {
+	display: inline-block;
+	margin: auto;
+	margin-top: 80px;
+	text-align: center;
+	text-decoration: none;
+}
+
+a#btn_bissingers:hover {
+	-webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+a#btn_explodingkittens {
+	display: inline-block;
+	margin: auto;
+	margin-top: 75px;
+	text-align: center;
+}
+
+a#btn_explodingkittens:hover {
+	-webkit-box-shadow: 0px -8px 10px 0px rgba(215, 100, 0, 0.75);
+	-moz-box-shadow: 0px -8px 10px 0px rgba(215, 100, 0, 0.75);
+	box-shadow: 0px -8px 10px 0px rgba(215, 100, 0, 0.75);
+}
+
+a#btn_moo {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-top: 80px;
+	background-image: url(https://images.g2crowd.com/uploads/product/hd_favicon/1487565753/moo.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-indent: -500px;
+}
+
+a#btn_moo:hover {
+	text-indent: 300px;
+	transition: 3s;
+}
+
+a#btn_ofa {
+	display: inline-block;
+	height: 70px;
+	width: 150px;
+	box-sizing: border-box;
+	border-radius: 1px;
+	margin: auto;
+	margin-top: 90px;
+	padding-top: 12px;
+	background-color: DeepSkyBlue;
+	color: white;
+	text-align: center;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+a#btn_ofa:hover {
+	background-color: white;
+	color: DimGray;
+	margin-top: 80px;
+	font-size: 50px;
+}
+
+a#btn_pottermore {
+	display: inline-block;
+	margin: auto;
+	margin-top: 90px;
+	background-image: url(https://vignette1.wikia.nocookie.net/harrypotter/images/d/d8/Pottermore2.png/revision/latest?cb=20150923181540);
+	background-size: 150px;
+}
+
+a#btn_pottermore:hover {
+	transform: rotateY(180deg);
+	transition: 3s;
 }
